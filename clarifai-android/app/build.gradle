@@ -1,0 +1,40 @@
+apply plugin: "com.android.application"
+apply plugin: "android-apt"
+
+android {
+  compileSdkVersion versions.android.compile
+  buildToolsVersion versions.android.buildTools
+  defaultConfig {
+    applicationId "com.clarifai.android.starter.api.v2"
+    minSdkVersion versions.android.min
+    targetSdkVersion versions.android.target
+    versionCode versions.app.code
+    versionName versions.app.name
+  }
+  lintOptions { lintConfig rootProject.file('gradle/lint.xml') }
+}
+
+dependencies {
+  compile(
+      [
+          "appcompat-v7",
+          "recyclerview-v7",
+          "design",
+          "cardview-v7",
+      ].collect { "com.android.support:$it:$versions.android.compatV7" },
+      deps.clarifai,
+
+      deps.butterknife,
+
+      deps.rxJava,
+      deps.rxPermissions,
+
+      deps.timber,
+      deps.okHttpLogging,
+  )
+  compile(deps.materialDrawer) { transitive = true }
+
+  apt(
+      deps.butterknifeCompiler,
+  )
+}
