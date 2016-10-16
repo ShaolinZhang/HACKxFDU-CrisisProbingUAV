@@ -1,0 +1,19 @@
+{
+    "name": "hello-ruff",
+    "version": "0.1.0",
+    "description": "Hello, Ruff",
+    "author": "Yiluo Li",
+    "main": "src/index.js",
+    "ruff": {
+        "boards": {
+            "ruff-mbd-v1": "^4.1.2",
+            "*": "*"
+        },
+        "dependencies": {
+            "dht11": "^0.3.3",
+            "gy-30": "^3.0.3",
+            "buzzer-gpio": "^0.2.3",
+            "button-gpio": "^2.0.4"
+        }
+    }
+}
