@@ -9,7 +9,7 @@ Hardwares Specifications
 SkyProbe concept uses the following hardware:
 
 - DJI Phantom 4, a consumer-grade 4-axis aerial drone pre-equipped with one main camera with 180 degree vision and four auxiliary cameras. Product link: <http://www.dji.com/phantom-4>
-- Ruff Internet of Things kit, a JavaScript-based IoT kit which is very user-friendly to newbies. Ruff is a JavaScript runtime specialized in IoT development. Ruff makes embedded coding easy and more efficient by providing HAL, asynchronous I/O, and event-driven programming. Product link: <http://www.ruff.io>
+- Ruff Internet of Things kit, a JavaScript-based IoT kit which is very user-friendly to newbies, especially for the front-end developers who are unfamiliar with hardware and wiring. Ruff is a JavaScript runtime specialized in IoT development. Ruff makes embedded coding easy and more efficient by providing HAL, asynchronous I/O, and event-driven programming. Product link: <http://www.ruff.io>
 
 External APIs
 -------------
