@@ -2,6 +2,9 @@ Ruff Application
 ======================
 Ruff is a JavaScript runtime specialized in Internet of Things development. Ruff makes embedded coding easy and more efficient by providing HAL, asynchronous I/O, event-driven programming.
 For more information, please visit <https://ruff.io/>.
+
+Function
+-------------------
 This is the code used for collecting temperature, relative humidity, and luminosity through Ruff Internet of Things Kit.
 
 Deploying and Running
