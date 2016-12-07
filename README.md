@@ -3,6 +3,8 @@ SkyProbe - UAV for Crisis Probing
 
 SkyProbe is an Unmanned Aerial Vehicle based on DJI Phantom 4, incorporating Clarifai Computer Vision API which can detect natural crisis such as forest fires and debris flows in rural areas.
 
+**This project is the final 9 projects out of 60 competing teams at HACKxFDU and was awarded DJI Innovation and Entrepreneurship Award.**
+
 
 Hardwares Specifications
 ------------
@@ -36,8 +38,6 @@ Misc.
 -------------------
 
 This demo iseveloped by Shaolin Zhang and Yiluo Li. A project for HACKxFDU on October 14-16, 2016, using DJI Phantom 4 and Ruff IoT Kit as Hardware and DJI Mobile SDK, Clarifai CV API and Ruff SDK as Software.
-
-**This project is the final 9 projects out of 60 competing teams at HACKxFDU and was awarded DJI Innovation and Entrepreneurship Award.**
 
 License
 -------------------
