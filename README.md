@@ -37,7 +37,7 @@ to your API key obtained from DJI and Clarifai.
 Misc.
 -------------------
 
-This demo iseveloped by Shaolin Zhang and Yiluo Li. A project for HACKxFDU on October 14-16, 2016, using DJI Phantom 4 and Ruff IoT Kit as Hardware and DJI Mobile SDK, Clarifai CV API and Ruff SDK as Software.
+This demo is developed by Shaolin Zhang and Yiluo Li. A project for HACKxFDU on October 14-16, 2016, using DJI Phantom 4 and Ruff IoT Kit as Hardware and DJI Mobile SDK, Clarifai CV API and Ruff SDK as Software.
 
 License
 -------------------
